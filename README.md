@@ -5,4 +5,13 @@ Mall-repo för kursen `Grafiska Verktyg`
 <br>
 
 # About the design
-asdfasdf
+
+Jag använde Adobe Color för att välja ett monokromt färgtema som jag tyckte såg bra ut. Jag använde sedan dessa färger för alla element och bakgrunden.
+<br>
+Typsnittet fick jag genom Google Fonts och jag scrollade helt enkelt runt tills jag hittade något jag gillade.
+<br>
+Jag har ingen direkt motivering till varför jag valde de knappar och menyer som jag gjorde utan tog helt enkelt något jag tyckte såg bra ut.
+<br>
+När jag ritade upp projektet i Figma så hade jag Flexbox i bakhuvudet och försökte få designen att passa det CSS-tänket.
+<br>
+Figma: https://www.figma.com/file/h3matCgddkbkZMtx80wRZK/How-to-open-a-door?node-id=0%3A1
