@@ -14,4 +14,4 @@ Jag har ingen direkt motivering till varför jag valde de knappar och menyer som
 <br><br>
 När jag ritade upp projektet i Figma så hade jag Flexbox i bakhuvudet och försökte få designen att passa det CSS-tänket.
 <br><br>
-Figma: https://www.figma.com/file/h3matCgddkbkZMtx80wRZK/How-to-open-a-door?node-id=0%3A1
+Figma: https://www.figma.com/file/h3matCgddkbkZMtx80wRZK/How-to-open-a-door
