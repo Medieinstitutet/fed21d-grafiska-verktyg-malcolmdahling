@@ -3,5 +3,5 @@
 Mall-repo för kursen `Grafiska Verktyg`
 
 
-##About the design
+# About the design
 asdfasdf
