@@ -12,6 +12,6 @@ Typsnittet fick jag genom Google Fonts och jag scrollade helt enkelt runt tills 
 <br><br>
 Jag har ingen direkt motivering till varför jag valde de knappar och menyer som jag gjorde utan tog helt enkelt något jag tyckte såg bra ut.
 <br><br>
-När jag ritade upp projektet i Figma så hade jag Flexbox i bakhuvudet och försökte få designen att passa det CSS-tänket.
+När jag ritade upp projektet i Figma så hade jag Flexbox i bakhuvudet då jag gillar att jobba med det och försökte då få designen att passa det CSS-tänket.
 <br><br>
 Figma: https://www.figma.com/file/h3matCgddkbkZMtx80wRZK/How-to-open-a-door
