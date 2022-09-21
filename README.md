@@ -15,3 +15,9 @@ Jag har ingen direkt motivering till varför jag valde de knappar och menyer som
 När jag ritade upp projektet i Figma så hade jag Flexbox i bakhuvudet då jag gillar att jobba med det och försökte då få designen att passa det CSS-tänket.
 <br><br>
 Figma: https://www.figma.com/file/h3matCgddkbkZMtx80wRZK/How-to-open-a-door
+
+# Koduppgiften
+
+GitHub: https://github.com/MalcolmDahling/moontribe
+<br>
+GitHub-Pages: https://malcolmdahling.github.io/moontribe/
