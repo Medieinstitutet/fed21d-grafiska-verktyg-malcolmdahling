@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/fed21d-grafiska-verktyg-malcolmdahling/static/css/main.ed94d03b.css",
-    "main.js": "/fed21d-grafiska-verktyg-malcolmdahling/static/js/main.2bef8329.js",
+    "main.js": "/fed21d-grafiska-verktyg-malcolmdahling/static/js/main.ea072fa4.js",
     "static/js/787.0dd40d48.chunk.js": "/fed21d-grafiska-verktyg-malcolmdahling/static/js/787.0dd40d48.chunk.js",
-    "static/media/NotFound.png": "/fed21d-grafiska-verktyg-malcolmdahling/static/media/NotFound.f04ff21d6035fe5520a8.png",
+    "static/media/NotFound.webp": "/fed21d-grafiska-verktyg-malcolmdahling/static/media/NotFound.a38f5351575ab2b85982.webp",
     "static/media/7.jpg": "/fed21d-grafiska-verktyg-malcolmdahling/static/media/7.d49250f47c258352904a.jpg",
     "static/media/1.jpg": "/fed21d-grafiska-verktyg-malcolmdahling/static/media/1.c2ae2b988f871f790bf3.jpg",
     "static/media/5.webp": "/fed21d-grafiska-verktyg-malcolmdahling/static/media/5.049156bc8a4529e31cb1.webp",
@@ -17,11 +17,11 @@
     "static/media/twitter.png": "/fed21d-grafiska-verktyg-malcolmdahling/static/media/twitter.7177ab8efe4abdb344a7.png",
     "index.html": "/fed21d-grafiska-verktyg-malcolmdahling/index.html",
     "main.ed94d03b.css.map": "/fed21d-grafiska-verktyg-malcolmdahling/static/css/main.ed94d03b.css.map",
-    "main.2bef8329.js.map": "/fed21d-grafiska-verktyg-malcolmdahling/static/js/main.2bef8329.js.map",
+    "main.ea072fa4.js.map": "/fed21d-grafiska-verktyg-malcolmdahling/static/js/main.ea072fa4.js.map",
     "787.0dd40d48.chunk.js.map": "/fed21d-grafiska-verktyg-malcolmdahling/static/js/787.0dd40d48.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ed94d03b.css",
-    "static/js/main.2bef8329.js"
+    "static/js/main.ea072fa4.js"
   ]
 }
