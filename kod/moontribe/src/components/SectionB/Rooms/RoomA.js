@@ -1,8 +1,8 @@
 export function RoomA(){
 
     return(
-        <div>
-            <img src={require('../../../images/2.jpg')}></img>
+        <article>
+            <img src={require('../../../images/moontribe_room0.jpg')} alt="TREE TOP BUNGALOW"></img>
 
             <h3>UPPER JUNGLE</h3>
 
@@ -19,6 +19,6 @@ export function RoomA(){
             </p>
 
             <input type="button" value="BOOK NOW"></input>
-        </div>
+        </article>
     );
 }

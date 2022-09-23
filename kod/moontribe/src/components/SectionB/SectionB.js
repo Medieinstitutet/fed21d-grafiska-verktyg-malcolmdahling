@@ -49,23 +49,23 @@ export function SectionB(){
         <section className="sectionB">
             <h2>OUR ROOMS</h2>
 
-            {screenWidth >= 835 &&
+            {(screenWidth >= 835 &&
                 <>
                     <RoomA></RoomA>
                     <RoomB></RoomB>
                     <RoomC></RoomC>
-                </>
+                </>)
 
                 ||
 
-                <>
+                (<>
                     <input type="button" value="<" className="changeRoomButton buttonLeft" onClick={ () => {changeRoom('backward')} }></input>
                     <input type="button" value=">" className="changeRoomButton buttonRight" onClick={ () => {changeRoom('forward')} }></input>
                     
-                    {currentRoom == 0 && <RoomA></RoomA>}
-                    {currentRoom == 1 && <RoomB></RoomB>}
-                    {currentRoom == 2 && <RoomC></RoomC>}
-                </>
+                    {currentRoom === 0 && <RoomA></RoomA>}
+                    {currentRoom === 1 && <RoomB></RoomB>}
+                    {currentRoom === 2 && <RoomC></RoomC>}
+                </>)
             }
 
         </section>

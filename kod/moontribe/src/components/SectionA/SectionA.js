@@ -17,8 +17,8 @@ export function SectionA(){
             <input className="readMore" type="button" value="READ MORE"></input>
 
             <div>
-                <img className="img0" src={require('../../images/0.jpg')}></img>
-                <img className="img1" src={require('../../images/1.jpg')}></img>
+                <img className="img0" src={require('../../images/0.jpg')} alt="jungle"></img>
+                <img className="img1" src={require('../../images/1.jpg')} alt="pool"></img>
             </div>
             
         </section>

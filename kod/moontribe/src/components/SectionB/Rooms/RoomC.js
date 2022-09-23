@@ -1,8 +1,8 @@
 export function RoomC(){
 
     return(
-        <div>
-            <img src={require('../../../images/4.jpg')}></img>
+        <article>
+            <img src={require('../../../images/moontribe_room2.jpg')} alt="LUSH AND PEACEFUL"></img>
 
             <h3>LUSH AND PEACEFUL</h3>
 
@@ -18,6 +18,6 @@ export function RoomC(){
             </p>
 
             <input type="button" value="BOOK NOW"></input>
-        </div>
+        </article>
     );
 }

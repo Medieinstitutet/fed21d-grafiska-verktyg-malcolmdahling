@@ -1,8 +1,8 @@
 export function RoomB(){
 
     return(
-        <div>
-            <img src={require('../../../images/3.jpg')}></img>
+        <article>
+            <img src={require('../../../images/moontribe_room1.jpg')} alt="PRIVATE DIPPING POOL"></img>
 
             <h3>LOWER JUNGLE</h3>
 
@@ -18,6 +18,6 @@ export function RoomB(){
             </p>
 
             <input type="button" value="BOOK NOW"></input>
-        </div>
+        </article>
     );
 }

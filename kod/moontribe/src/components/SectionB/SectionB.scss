@@ -5,7 +5,7 @@
 
     .sectionB{
 
-        div{
+        article{
             flex-basis:32%;
         }
     }
@@ -15,7 +15,7 @@
 @media only screen and (max-width:$tabletMaxWidth){
     .sectionB{
 
-        div{
+        article{
             flex-basis:80%;
         }
     }
@@ -24,7 +24,7 @@
 @media only screen and (max-width:$phoneMaxWidth){
     .sectionB{
 
-        div{
+        article{
             flex-basis:80%;
         }
     }
@@ -84,7 +84,7 @@
         background-color:$green;
     }
 
-    div{
+    article{
 
         img{
             max-width:100%;

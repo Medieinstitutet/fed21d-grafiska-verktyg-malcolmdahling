@@ -8,14 +8,16 @@ export function Footer(){
                 <h2><span>follow</span> THE TRIBE</h2>
 
                 <div className="icons">
-                    <img src={require('../../icons/instagram.png')}></img>
-                    <img src={require('../../icons/facebook.png')}></img>
-                    <img src={require('../../icons/twitter.png')}></img>
+                    <img src={require('../../icons/instagram.png')} alt="instagram"></img>
+                    <img src={require('../../icons/facebook.png')} alt="facebook"></img>
+                    <img src={require('../../icons/twitter.png')} alt="twitter"></img>
                 </div>
                 
-                <p>Tulum, Quintana Roo, México.</p>
-                <p>Phone: +52 1 (012) 345 6789</p>
-                <p>Email: info@moontribe.com</p>
+                <address>
+                    <p>Tulum, Quintana Roo, México.</p>
+                    <p>Phone: +52 1 (012) 345 6789</p>
+                    <p>Email: info@moontribe.com</p>
+                </address>
             </section>
 
 
@@ -32,14 +34,14 @@ export function Footer(){
                 <div className="ourHome">
                     <div>
                         <p>OUR HOME</p>
-                        <a href="#">TULUM</a>
+                        <a href="/">TULUM</a>
                     </div>
 
                     <div>
                         <p>OPENING SOON</p>
-                        <a href="#">ALULA</a>
-                        <a href="#">HONOLULU</a>
-                        <a href="#">BALI-UBUD</a>
+                        <a href="/">ALULA</a>
+                        <a href="/">HONOLULU</a>
+                        <a href="/">BALI-UBUD</a>
                     </div>
 
                     <div>

@@ -18,7 +18,14 @@ root.render(
                 <title>MOONTRIBE</title>
             </Helmet>
 
-            <Favicon url="https://raw.githubusercontent.com/Medieinstitutet/fed21d-grafiska-verktyg-malcolmdahling/main/kod/moontribe/src/images/favicon/favicon.png" />
+
+            {/*FONTS*/}
+            <link rel="preconnect" href="https://fonts.googleapis.com"/>
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+            <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Jacques+Francois&display=swap" rel="stylesheet"></link>
+            {/*FONTS*/}
+
+            <Favicon url="https://raw.githubusercontent.com/Medieinstitutet/fed21d-grafiska-verktyg-malcolmdahling/main/kod/moontribe/src/images/favicon.png" />
 
             <HashRouter>
                 <Routes>

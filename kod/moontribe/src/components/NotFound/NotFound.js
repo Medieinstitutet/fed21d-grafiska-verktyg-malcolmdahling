@@ -8,7 +8,7 @@ export function NotFound(){
 
     return(
         <>
-            <img className="notFoundImg" src={require('../../images/NotFound.webp')}></img>
+            <img className="notFoundImg" src={require('../../images/NotFound.webp')} alt="background"></img>
         </>
     );
 }

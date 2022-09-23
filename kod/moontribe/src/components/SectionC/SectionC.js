@@ -23,8 +23,8 @@ export function SectionC(){
 
                 
             <div className="imgContainer">
-                <img className="imgA" src={require('../../images/6.jpg')}></img>
-                <img className="imgB" src={require('../../images/7.jpg')}></img>
+                <img className="imgLeft" src={require('../../images/6.jpg')} alt="candles?"></img>
+                <img className="imgRight" src={require('../../images/7.jpg')} alt="table"></img>
             </div>
 
         </section>
