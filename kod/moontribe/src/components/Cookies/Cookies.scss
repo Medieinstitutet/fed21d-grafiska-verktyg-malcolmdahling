@@ -1,0 +1,115 @@
+@import '../../_variables';
+
+
+@media only screen and (min-width:$desktopMinWidth){
+
+    .cookies{
+
+        position:absolute;
+        bottom:20px;
+        left:20px;
+
+        width:422px;
+        padding:50px;
+
+        .buttons{
+            gap:100px;
+        }
+    }
+}
+
+@media only screen and (max-width:$tabletMaxWidth){
+
+    .cookies{
+        position:absolute;
+        bottom:20px;
+        left:20px;
+
+        width:422px;
+        padding:50px;
+
+        .buttons{
+            gap:100px;
+        }
+    }
+}
+
+@media only screen and (max-width:$phoneMaxWidth){
+
+    .cookies{
+        position:absolute;
+        bottom:0px;
+        left:0px;
+        width:100%;
+        padding:10px;
+
+        .buttons{
+            gap:10px;
+        }
+    }
+}
+
+
+
+.cookies{
+    margin-top:5%;
+    box-sizing:border-box;
+
+    font-family: 'Jacques Francois', serif;
+    background-color:$beige;
+
+    h2{
+        margin:0px;
+        text-align:center;
+        
+        font-size:24px;
+        color:$khaki; 
+    }
+
+    p{
+        text-align:center;
+        color:black;
+            
+        a{
+            color:$khaki;
+        }
+    }
+
+    .buttons{
+        display:flex;
+        justify-content:center;
+
+       
+
+        input{
+            width:100px;
+            height:30px;
+
+            font-size:12px;
+            font-family: 'Jacques Francois', serif;
+            cursor:pointer;
+        }
+
+        input:nth-child(1){
+            color:$khaki;
+            border:1px solid $khaki;
+        }
+
+        input:nth-child(1):hover{
+            color:white;
+            background-color:$khaki;
+        }
+
+        input:nth-child(2){
+            color:white;
+            background-color:$khaki;
+            border:none;
+        }
+
+        input:nth-child(2):hover{
+            border:1px solid $khaki;
+            color:$khaki;
+            background-color:white;
+        }
+    }
+}

@@ -1,0 +1,69 @@
+@import '../../_variables';
+
+
+
+@media only screen and (min-width:$desktopMinWidth){
+
+    .menu{
+        width:50%;
+    }
+}
+
+@media only screen and (max-width:$tabletMaxWidth){
+
+    .menu{
+        width:100%;
+    }
+}
+
+@media only screen and (max-width:$phoneMaxWidth){
+    .menu{
+        width:100%;
+    }
+}
+
+
+
+.menu{
+    position:fixed;
+    top:0%;
+    left:0%;
+    height:100%;
+    z-index:2;
+
+    background-color:$beige;
+    color:$green;
+
+    h2{
+        text-align:center;
+        font-size:32px;
+        margin-top:125px;
+    }
+
+    nav{
+
+        ul{
+            list-style:none;
+
+            a{
+                text-decoration:none;
+                color:$green;
+                font-size:32px;
+
+            }
+        }
+    }
+}
+
+
+.overlay{
+    position:fixed;
+    top:0%;
+    left:0%;
+    z-index:1;
+    width:100%;
+    height:100%;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+

@@ -1,0 +1,237 @@
+@import '../../_variables';
+
+
+@media only screen and (min-width:$desktopMinWidth){
+
+    .sectionA{
+        
+        .heading{
+            display:inline-block;
+            width:40%;
+
+            font-size:64px;
+        }
+
+        .paragraph{
+            width:30%;
+
+            font-size:32px;
+        }
+
+        .readMore{
+            width:235px;
+            height:64px;
+
+            margin-left:20px;
+
+            font-size:24px;
+        }
+
+
+        div{
+            img{
+                width:40%;
+                height:150%;
+            }
+
+            .img0{
+                animation: desktopImg0Anim 1s forwards;
+                right:0%;
+            }
+
+            .img1{
+                animation: desktopImg1Anim 1s forwards;
+                right:20%;
+            }
+
+            @keyframes desktopImg0Anim{
+                from{top:200%;}
+                to{top:-100%;}
+            }
+            
+            @keyframes desktopImg1Anim{
+                from{top:200%;}
+                to{top:-80%;}
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width:$tabletMaxWidth){
+
+    .sectionA{
+
+        .heading{
+            width:80%;
+
+            font-size:64px;
+        }
+
+        .paragraph{
+            width:47%;
+
+            font-size:32px;
+        }
+
+        .readMore{
+            width:235px;
+            height:64px;
+
+            margin-left:20px;
+
+            font-size:24px;
+        }
+
+
+        div{
+            img{
+                width:50%;
+                height:80%;
+            }
+
+            .img0{
+                animation:tabletImg0Anim 1s forwards;
+                right:0%;
+            }
+
+            .img1{
+                animation:tabletImg1Anim 1s forwards;
+                right:20%;
+            }
+
+            @keyframes tabletImg0Anim{
+                from{top:200%;}
+                to{top:-30%;}
+            }
+            
+            @keyframes tabletImg1Anim{
+                from{top:200%;}
+                to{top:10%;}
+            }
+        }
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:$phoneMaxWidth){
+
+    .sectionA{
+        min-height:100vh;
+
+        .heading{
+            width:100%;
+
+            font-size:32px;
+        }
+
+        .paragraph{
+            width:100%;
+
+            font-size:16px;
+        }
+
+        .readMore{
+            width:100px;
+            height:29px;
+
+            margin-left:0px;
+
+            font-size: 12px;
+        }
+
+        div{
+            img{
+                width:50%;
+                height:50%;
+            }
+
+            .img0{
+                animation:phoneImg0Anim 1s forwards;
+                right:0%;
+            }
+
+            .img1{
+                animation:phoneImg1Anim 1s forwards;
+                right:20%;
+            }
+
+            @keyframes phoneImg0Anim{
+                from{top:200%;}
+                to{top:0%;}
+            }
+            
+            @keyframes phoneImg1Anim{
+                from{top:200%;}
+                to{top:10%;}
+            }
+        }
+    }
+}
+
+
+
+
+
+.sectionA{
+    position:relative;
+    padding-top:3%;
+    padding-left:3%;
+    padding-bottom:3%;
+
+    background-color:$khaki;
+
+    .heading{
+        margin:0px;
+
+        animation:textAnim 1s forwards;
+
+        span{
+            font-size:48px;
+        }
+    }
+
+    .paragraph{
+        animation:textAnim 1s forwards;
+    }
+
+
+    .readMore{
+        cursor:pointer;
+        background-color:white;
+        border:none;
+        font-family: 'Jacques Francois', serif;
+        color:$khaki;
+
+        animation:textAnim 1s forwards;
+    }
+
+    .readMore:hover{
+        background-color:$khaki;
+        border:1px solid white;
+        color:white;
+    }
+
+
+
+    div{
+        width:100%;
+        height:500px;
+        position:relative;
+
+        img{
+            position:absolute;
+            object-fit:cover;
+        }
+    }
+}
+
+
+@keyframes textAnim{
+    from{transform: translateX(-200%)}
+    to{transform: translateX(0%)}
+}

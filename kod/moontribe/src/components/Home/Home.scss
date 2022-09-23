@@ -1,0 +1,16 @@
+@import '../../_variables';
+
+body{
+    font-family: 'Crimson Text', serif;
+    color:white;
+
+    overflow-x:hidden;
+
+
+    main{
+
+        section{
+            min-height:100vh;
+        }
+    }
+}

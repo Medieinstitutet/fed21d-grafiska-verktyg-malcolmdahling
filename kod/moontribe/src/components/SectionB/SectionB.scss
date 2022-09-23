@@ -1,0 +1,123 @@
+@import '../../_variables';
+
+
+@media only screen and (min-width:$desktopMinWidth){
+
+    .sectionB{
+
+        div{
+            flex-basis:32%;
+        }
+    }
+
+}
+
+@media only screen and (max-width:$tabletMaxWidth){
+    .sectionB{
+
+        div{
+            flex-basis:80%;
+        }
+    }
+}
+
+@media only screen and (max-width:$phoneMaxWidth){
+    .sectionB{
+
+        div{
+            flex-basis:80%;
+        }
+    }
+}
+
+
+.sectionB{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+
+    position:relative;
+    padding-bottom:5%;
+
+    color:$green;
+    background-color:$beige;
+
+    h2{
+        margin:0px;
+
+        flex-basis:100%;
+
+        text-align:center;
+        font-size:64px;
+    }
+
+
+    .changeRoomButton{
+        position:absolute;
+        height:30px;
+        width:30px;
+        padding:0px;
+
+        border:0px;
+        background-color:transparent;
+        font-size:30px;
+        cursor:pointer;
+        color:$green;
+        box-shadow: none;
+    }
+
+    .buttonLeft{
+        left:0%;
+        top:50%;
+    }
+
+    .buttonRight{
+        right:0%;
+        top:50%;
+    }
+
+    
+
+    .changeRoomButton:hover{
+        color:$beige;
+        background-color:$green;
+    }
+
+    div{
+
+        img{
+            max-width:100%;
+        }
+
+        h3{
+            font-size:32px;
+        }
+
+        p{
+
+            span{
+
+                display:block;
+                margin-bottom:10px;
+            }
+        }
+
+        input{
+            padding:10px 20px;
+
+            box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+            color:$khaki;
+            background-color:white;
+            font-family: 'Jacques Francois', serif;
+            border:1px solid $khaki;
+            cursor:pointer;
+        }
+
+        input:hover{
+            color:white;
+            background-color:$khaki;
+            border:1px solid white;
+        }
+    }
+}
