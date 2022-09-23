@@ -5,16 +5,30 @@ import reportWebVitals from './reportWebVitals';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import { NotFound } from './components/NotFound/NotFound';
 import { Home } from './components/Home/Home';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Favicon from 'react-favicon'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <HashRouter>
-            <Routes>
-                <Route index element={<Home></Home>}></Route>
-                <Route path="*" element={<NotFound></NotFound>}></Route>
-            </Routes>
-        </HashRouter>
+
+        <HelmetProvider>
+
+            <Helmet>
+                <title>MOONTRIBE</title>
+            </Helmet>
+
+            <Favicon url="favicon.ico" />
+
+            <HashRouter>
+                <Routes>
+                    <Route index element={<Home></Home>}></Route>
+                    <Route path="*" element={<NotFound></NotFound>}></Route>
+                </Routes>
+            </HashRouter>
+
+        </HelmetProvider>
+
     </React.StrictMode>
 );
 

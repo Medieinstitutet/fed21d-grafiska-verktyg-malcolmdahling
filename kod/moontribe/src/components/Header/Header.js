@@ -53,7 +53,7 @@ export function Header(){
                     </div>
                 </div>
 
-                <h1>MOONTRIBE</h1>
+                <div className='logo'></div>
 
                 <Cookies></Cookies>
 
