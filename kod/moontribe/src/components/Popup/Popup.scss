@@ -1,0 +1,75 @@
+@import '../../_variables';
+
+
+
+
+.popup{
+    position:fixed;
+    left:50%;
+    top:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+
+    width:400px;
+    height:400px;
+    padding:20px 100px;
+    box-sizing:border-box;
+
+    border:2px solid $green;
+    text-align:center;
+    background-color: white;
+    color:black;
+
+    .x{
+        position:absolute;
+        top:10%;
+        right:10%;
+        
+        width:36px;
+        height:60px;
+        background-image:url('../../images/x.svg');
+        cursor:pointer;
+    }
+
+    h3{
+        font-size:24px;
+    }
+
+    p{
+        font-size:16px;
+    }
+
+    form{
+        display:flex;
+        flex-wrap:wrap;
+        gap:10px;
+
+        input[type=text]{
+            flex-basis:100%;
+
+            padding:5px;
+
+            font-family: 'Jacques Francois', serif;
+            background-color:$beige;
+            border:1px solid $green;
+        }
+
+        label{
+            font-family: 'Jacques Francois', serif;
+            font-size:12px;
+            text-decoration:underline;
+        }
+
+        input[type=button]{
+            width:169px;
+            height:48px;
+            margin:auto;
+            margin-top:20px;
+
+            background-color:#e3e0dd;
+            color:white;
+            border:none;
+            font-family: 'Jacques Francois', serif;
+        }
+    }
+}
