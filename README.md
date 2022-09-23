@@ -18,6 +18,4 @@ Figma: https://www.figma.com/file/h3matCgddkbkZMtx80wRZK/How-to-open-a-door
 
 # Koduppgiften
 
-GitHub: https://github.com/MalcolmDahling/moontribe
-<br>
 GitHub-Pages: https://malcolmdahling.github.io/moontribe/
